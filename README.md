@@ -1,10 +1,9 @@
-# Minimax for Tic-tac-toe game 
-A __PHP__ implementation of Minimax algorithm for Tic-tac-toe game
+# Minimax for Tic-Tac-Toe game
+A __PHP__ implementation of Minimax algorithm for Tic-Tac-Toe game
 
 ## Main goals
 
 The main goal is provide a __PHP__ implementation for Minimax recursive algorithm.
-
 In this implementation the Minimax algorithm is applied to Tic-tac-toe game.
 
 The __PHP__ class provided has three methods:
@@ -15,7 +14,7 @@ The __PHP__ class provided has three methods:
 
 ## Other info
 
-You can visit the Wikipedia pages about [Minimax algorithms](https://en.wikipedia.org/wiki/Minimax) and [Tic-tac-toe game](https://en.wikipedia.org/wiki/Tic-tac-toe)
+You can visit the Wikipedia pages about [Minimax algorithms](https://en.wikipedia.org/wiki/Minimax) and [Tic-Tac-Toe game](https://en.wikipedia.org/wiki/Tic-tac-toe)
 
 ## Authors
 
@@ -23,4 +22,4 @@ Riccardo Giovarelli - riccardo.giovarelli@gmail.com
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details
+This project is licensed under the MIT license - see the LICENSE file for details

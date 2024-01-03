@@ -2,15 +2,13 @@
 
 /**
  * Tic-Tac-Toe Main Class
- *
- * @author Riccardo Giovarelli
  */
 class TictactoeMainClass
 {
     /**
      * Class constructor
      *
-     * @param array $current_field Current Tic-Tac-Toe field
+     * @param string $current_field Current Tic-Tac-Toe field
      */
     public function __construct($current_field)
     {
@@ -126,7 +124,7 @@ class TictactoeMainClass
     /**
      * @method check_current_state
      *
-     * Check current field state
+     * Check current field state (even / player wins / ai wins)
      *
      * @param array $field Field for the current Tic-tac-toe match
      * @return integer 3 if the match is even, 5 if player wins, 10 if Ai wins or 6 if there aren't results
@@ -155,6 +153,7 @@ class TictactoeMainClass
 
         // LOOP LEVEL 1
         for ($i = 0; $i < 3; $i++) {
+
             // Rows count reset
             $hit_matrix["palyer"]["row"] = 0;
             $hit_matrix["ai"]["row"] = 0;
